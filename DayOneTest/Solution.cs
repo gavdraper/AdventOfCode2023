@@ -1,6 +1,6 @@
-namespace DayOneTest
+﻿namespace DayOneTest
 {
-    public class DayOneTest
+    internal class Solution
     {
         public Dictionary<string, string> Matches = new()
         {
@@ -53,16 +53,5 @@ namespace DayOneTest
                 digits.Add(FindFirstAndLast(l.ToLower()));
             return digits.Sum();
         }
-
-        [Fact]
-        public void TestSolvesSample()
-        {
-            var input = File.ReadAllText("../../../Input/Sample.txt");
-            var sample = Solve(input);
-            Assert.Equal(281, sample);
-            input = File.ReadAllText("../../../Input/Real.txt");
-            var real = Solve(input);
-        }
-
     }
 }
