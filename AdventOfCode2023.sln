@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Days", "Days", "{444BB72A-D7C9-4243-AF71-01A0119B6349}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOne", "DayOneTest\DayOne.csproj", "{415B5034-E5FD-4CB4-86E1-AC1CCC68B2D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOne", "DayOne\DayOne.csproj", "{415B5034-E5FD-4CB4-86E1-AC1CCC68B2D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventBase", "AdventBase\AdventBase.csproj", "{ED9FC430-D40A-4C4B-BC69-A06A973A889F}"
 EndProject
